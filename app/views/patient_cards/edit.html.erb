@@ -1,0 +1,11 @@
+<h1>Editing patient card</h1>
+<div class="style_for_pages">
+  <%= render "form", patient_card: @patient_card %>
+
+  <br>
+
+  <div>
+    <%= link_to "Show this patient card", @patient_card %> |
+    <%= link_to "Back to patient cards", patient_cards_path %>
+  </div>
+</div>
